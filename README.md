@@ -11,12 +11,13 @@
 You must set environment variables listed below:
 	
 	1. S3_ACCESS_KEY --> S3 Access Key (Amazon Admin Panel/Console)
-  2. S3_SECRET_KEY --> S3 Secret Key  (Amazon Admin Panel/Console)
+	2. S3_SECRET_KEY --> S3 Secret Key  (Amazon Admin Panel/Console)
 
 ### Functions
 	
-	//Takes File and Upload location as parameters. File is then uploaded to location on S3.
 	UploadImg(file io.Reader, location string)
+
+Takes File and Upload location as parameters. File is then uploaded to location on S3.
 
 ### Example Handler (Using http)
 
